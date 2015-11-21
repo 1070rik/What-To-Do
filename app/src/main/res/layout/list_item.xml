@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/list"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="san-serif-thin"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:fontFamily="san-serif-thin"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Email label -->
+
+    <!-- Mobile number label -->
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:fontFamily="san-serif-thin"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
