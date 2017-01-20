@@ -72,7 +72,7 @@ public class events extends ListActivity {
 
 
                 Intent in = new Intent(getApplicationContext(),
-                        SingleContactActivity.class);
+                        SingleEventActivity.class);
                 in.putExtra(TAG_THING, name);
                 in.putExtra(TAG_PLACE, cost);
                 in.putExtra(TAG_TIME, description);
