@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class SingleContactActivity  extends Activity {
+public class SingleEventActivity  extends Activity {
 
     // JSON node keys
     private static final String TAG_THING = "Thing";
